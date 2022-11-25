@@ -42,7 +42,7 @@ const App = () => {
 
       { movies?.length > 0
       // if movies length is greater than zero 
-        ?(
+        ? (
           <div className="container">
             {movies.map((movie) => (
               <MovieCard movie={movie} />
